@@ -12,7 +12,7 @@ After doing the above for a predetermined number of times (loop_num), we output 
 
 Please specify the point data file as the command line argument and execute it.
 
-python local_s.py < a280.dat
+ex. python local_s.py < a280.dat
 
 The point data should be in the format of the sample data, a280.dat.
 
