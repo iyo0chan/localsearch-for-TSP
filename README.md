@@ -1,14 +1,19 @@
 # localsearch-for-TSP
 
 This program reads a point data file and outputs an approximate solution to the TSP (traveling salesman problem) using multiple search algorithms.
+
 First, the approximate solution is obtained using the Nearest Neighbor method, which is a kind of local search method, and then the approximate solution is updated using the ILS(iterated local) with double blidge and 2-opt edge recombination.
+
 If we get a better approximation, we run ILS on that solution again with double blidge and 2-opt.
+
 After doing the above for a predetermined number of times (loop_num), we output the evaluation values of the approximate solution and the graph.
 
 ## Getting Started
 
 Please specify the point data file as the command line argument and execute it.
+
 python local_s.py < a280.dat
+
 The point data should be in the format of the sample data, a280.dat.
 
 
@@ -28,7 +33,9 @@ The point data should be in the format of the sample data, a280.dat.
 ## 実行方法
 
 コマンドライン引数で点データファイルを指定し実行してください。
+
 例：python local_s.py < a280.dat
+
 点データはサンプルデータであるa280.datの形式に合わせてください。
 
 ## 依存ライブラリ
