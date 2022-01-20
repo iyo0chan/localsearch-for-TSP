@@ -8,7 +8,7 @@ If we get a better approximation, we run ILS on that solution again with double 
 
 After doing the above for a predetermined number of times (loop_num), we output the evaluation values of the approximate solution and the graph.
 
-![sample](https://github.com/iyo0chan/localsearch-for-TSP/blob/main/Figure_1.png)
+![sample](https://github.com/iyo0chan/localsearch-for-TSP/blob/main/sample.png)
 ## Getting Started
 
 Please specify the point data file as the command line argument and execute it.
