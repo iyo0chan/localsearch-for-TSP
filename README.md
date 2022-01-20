@@ -26,8 +26,10 @@ The point data should be in the format of the sample data, a280.dat.
 # localsearch-for-TSP
 
 点データファイルを読み込み、複数の探索アルゴリズムを用いてTSP (traveling salesman problem)の近似解を出力します。
+
 まず局所探索法の一種であるNearest Neighbor法を用いて近似解を求め、その後、double blidgeで辺の組み換え2-optによる反復局所探索法 (Iterated Local Search) で近似解の更新を試みます。
 より良い近似解が得られた場合、その解へ再びdouble blidgeと2-optでILSをおこないます。
+
 既定の回数（loop_num）だけ上記の処理をおこなった後、近似解の評価値とグラフを出力します。
 
 ## 実行方法
